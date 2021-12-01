@@ -1,0 +1,125 @@
+@import url("https://fonts.googleapis.com/css?family=Lora");
+html,
+body {
+  /* background-image: url(/images/login.jpg); */
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 10%;
+  font-family: "Lato", sans-serif;
+}
+
+.rate-container {
+  height: calc(75vh - 148px);
+  font-family: "Lato", sans-serif;
+  justify-content: center;
+  align-items: center;
+  font-size: 20px;
+  text-align: center;
+  margin-left: 30px;
+}
+
+.card {
+  height: 330px;
+  line-height: 48px;
+  margin-top: auto;
+  margin-bottom: auto;
+  width: 400px;
+  background-color: rgba(0, 0, 0, 0.5) !important;
+}
+
+.card-header h3 {
+  color: white;
+  font-size: 45px;
+  font-weight: 500;
+}
+
+.input-group-prepend span {
+  width: 50px;
+  background-color: #cb202d;
+  color: black;
+  border: 0 !important;
+}
+
+input:focus {
+  outline: 0 0 0 0 !important;
+  box-shadow: 0 0 0 0 !important;
+}
+
+.remember {
+  color: white;
+}
+
+.remember input {
+  width: 20px;
+  height: 20px;
+  margin-left: 0px;
+  margin-right: 5px;
+}
+
+/* .login_btn {
+  color: black;
+  background-color: #cb202d;
+  font-size: 19px;
+  font-weight: 400;
+  width: 100px;
+}
+
+.login_btn:hover {
+  color: black;
+  background-color: white;
+} */
+
+.card-footer a {
+  margin-bottom: 30px;
+  font-size: 19px;
+  font-weight: 400;
+  color: white;
+}
+.cc {
+  font-size: 19px;
+  font-weight: 400;
+  color: #cb202d;
+}
+.cc a {
+  color: white;
+}
+
+.form-rate {
+  font-family: "Lato", sans-serif;
+  font-size: 20px;
+  font-weight: 300;
+  color: rgb(223, 234, 238);
+  margin-top: 5%;
+  text-align: left;
+  line-height: 42px;
+  letter-spacing: 3px;
+  margin-left: 35px;
+}
+p a {
+  color: white;
+}
+p {
+  color: white;
+}
+.rate-btn {
+  margin-left: 5px;
+  width: 75%;
+  max-width: 250px;
+  min-width: 250px;
+  height: 40px;
+  border: none;
+  margin: 5rem 0;
+  box-shadow: 0px 14px 9px -15px rgba(0,0,0,0.25);
+  border-radius: 8px;
+  background-color: #f1aa24;
+  color: #ffff;
+  font-weight: 600;
+  cursor: pointer;
+  transition: all 0.2s ease-in;
+
+}
+
+a:hover {
+  text-decoration: none;
+}
+
